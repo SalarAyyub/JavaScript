@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight Simulator</title>
+        <style>
+            .red-item {
+                color: crimson;
+            }
+            #image {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flight Simulator</h1>
+        <p id="statusReport">The shuttle is on the ground</p>
+        <ul>
+            <li>Astrounout: <span id="name"></span>
+            <li>Home planet: <span id="home"></span>
+        </ul>
+        <div>
+            <h3>To Do List</h3>
+            <input type="checkbox" id="check">
+            <label for="check">Go to the moon</label>
+        </div>
+        <img id = "image" src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
+        <button id = "liftoffButton">Take off</button>
+        <button id = "abortMission">Abort mission</button>
+        <button id="showPicture">Show the picture of the home</button>
+        <script src = "CW3.js"></script>
+    </body>
+</html>
