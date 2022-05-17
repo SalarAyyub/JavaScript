@@ -48,7 +48,7 @@ class basicCalculator{
         const previous = parseFloat(this.previousValue)
         const current =  parseFloat(this.currentValue)
         
-        if(isNaN(previous) || isNaN(previous))
+        if(isNaN(previous) || isNaN(current))
         {
             return
         }
